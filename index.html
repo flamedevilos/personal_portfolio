@@ -1,0 +1,313 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+  <!-- Style Link-->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ICON CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+  <!-- JQuery package -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<body onload="initialClock()">
+  
+  <!-- preLoader -->
+  <div class="loader">
+    <div class="ring1"></div>
+    <div class="ring1"></div>
+    <div class="ring1"></div>
+    <span>Loading...</span>
+  </div>
+
+  <header>
+    <!-- Clock Section-->
+    <div class="datetime">  
+      <div class="date">
+        <span id="dayNames">Day</span>,
+        <span id="dayNumber">00</span>
+        <span id="months">Month</span>
+        <span id="years">Year</span>
+      </div>    
+      <div class="time">
+        <span id="hours">00</span>:
+        <span id="minutes">00</span>
+        <span id="seconds">00</span>
+        <span id="periods">AM</span>
+      </div>
+    </div>
+
+    <!-- Navigation bar-->
+    <div class="navbar">
+      <a href="#" class="logo"> Port<span>folio</span></a>
+      <div class="nav">
+        <div class="nav-items">
+          <!-- Menu Section -->
+          <a href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+          <a href="./cv.html"><i class="fa-solid fa-file-lines"></i> Resume</a>
+          <a href="./contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+          <!-- Language Section-->
+          <div class="language">
+            <i class="fa-solid fa-globe"></i>
+              <div class="drop-lang">
+                <a href="#">English</a>
+                <a href="#">German</a>
+                <a href="#">French</a>
+              </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Scroll Section -->
+  <nav class="scroll-nav">
+    <ul class="srl-menu">
+      <li>
+        <a href="#home" class="srl active" data-scroll="home">
+          <span><i class="fa-solid fa-house"></i> Home</span>
+        </a>
+      </li>    
+      <li>
+        <a href="#about" class="srl" data-scroll="about">
+          <span><i class="fa-solid fa-file-lines"></i> About</span>
+        </a>
+      </li>    
+      <li>
+        <a href="#skills" class="srl" data-scroll="skills">
+          <span><i class="fa-solid fa-layer-group"></i> Skills</span>
+        </a>
+      </li>    
+      <li>
+        <a href="#services" class="srl" data-scroll="services">
+          <span><i class="fa-solid fa-user-gear"></i> Services</span>
+        </a>
+      </li>    
+      <li>
+        <a href="#projects" class="srl" data-scroll="projects">
+          <span><i class="fa-solid fa-bars-progress"></i> Projects</span>
+        </a>
+      </li> 
+    </ul>
+  </nav>
+  <!-- Home Content-->
+  <section class="content active" id="home">
+    <div class="home-section">
+      <h2>Web. & App. <span>Development</span></h2>
+      <div class="text-box">
+        <h3>Hi, I'm <span>Mohamed Chakib Mastouri</span></h3>
+        <p>
+          This is my official portfolio webside related to my workline. 
+          I provide services as front- & back- end web. developement and maintaining the technical issues. 
+          <br>
+          <i class="fa-solid fa-arrow-right"></i> to Read More <a href="./cv.html">click hier...</a>
+        </p>
+        <div class="media-icons">
+          <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="icon"><i class="fab fa-google"></i></a>
+          <a href="#" class="icon"><i class="fab fa-yahoo"></i></a>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- About-Section Content-->
+  <section class="content" id="about">
+    <div class="about-section">
+      <h2>~ About me <i class="fa-solid fa-file-lines"></i> ~</h2>
+      <div class="description">
+        <div class="foto">
+          <img src="./img/personal_foto.png" alt="">
+        </div>
+        <h3>I'm <span>Mohamed Chakib Mastouri</span></h3>
+        <p>
+          I am a front- & back- end web developer & IT Technician.
+          I can provide clean code that's make easily & understandable to read, debug and maintain applications.
+          <br>
+          Before jumping headfirst into development or technical problems of cours i need to track the issues when they rise 
+          and then i can perform the required implementation or maintaining with innovative solution.
+          <br>     
+          I develope and build an interactive responsive website accessible to all users interfaces, 
+          regardless of their device with web animation. 
+          <br>
+          <i class="fa-solid fa-arrow-right"></i> to Read More please<a href="./cv.html"> click hier...</a>
+        </p>   
+        <div class="download">
+          <p>To Download my Resume please click in the section bellow <i class="fa-solid fa-arrow-turn-down"></i></p>
+          <a href="#">Download Resume <i class="fa-solid fa-file-export"></i></a>
+        </div> 
+      </div>
+    </div>
+  </section>
+  <!-- Skills-Section Content-->
+  <section class="content" id="skills">
+    <div class="skills-section">
+      <h2>~ Skills <i class="fa-solid fa-layer-group"></i> ~</h2>
+      <div class="description">
+        <h3>My skills & experiences.</h3>
+        <p>
+          Problems solving or to be creative, i have the ability in new defferent approche & open-mindedness to generate new & unexpected ideas.
+          And through the amount of services process come the experiences...
+          <br>
+          <i class="fa-solid fa-arrow-right"></i> to Read More<a href="./cv.html"> click hier...</a>
+        </p>
+        <br>       
+        <div class="skills">
+          <div class="bars">
+            <div class="info">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>60%</span>
+              </div>
+            <div class="line js"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>PHP</span>
+              <span>70%</span>
+            </div>
+            <div class="line php"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>MySQL</span>
+              <span>70%</span>
+            </div>
+            <div class="line mysql"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Maintenance</span>
+              <span>90%</span>
+            </div>
+            <div class="line hdr"></div>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </section>
+  <!-- Services-Section Content-->
+  <section class="content" id="services">    
+    <div class="services-section">
+      <h2>~ services <i class="fa-solid fa-user-gear"></i> ~</h2>
+
+      <div class="service-cards">
+        <div class="card">
+          <div class="box">
+            <i class="fa-brands fa-battle-net"></i>
+            <h3>Web Developement & design</h3>          
+            <p>
+              Searching the issues | providing a solution
+              New design with innovative ideas.
+              <br>
+              <br>
+              <i class="fa-solid fa-arrow-right"></i> to Read More<a href="#"> click hier...</a>
+            </p>
+            <br>            
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fa-solid fa-grip"></i>
+            <h3>App Developement & design</h3>          
+            <p>
+              Build | develope application with new architecture & design.
+              <br>
+              <br>
+              <i class="fa-solid fa-arrow-right"></i> to Read More<a href="#"> click hier...</a>
+            </p>
+            <br>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fa-solid fa-gears"></i>
+            <h3>Maintenance</h3>          
+            <p>
+              Maintenance Hardware & Software. 
+              <br>
+              PC Montage & configuration.
+              <br>
+              <br>
+              <i class="fa-solid fa-arrow-right"></i> to Read More<a href="#"> click hier...</a>
+            </p>
+            <br>            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Projects-Section Content-->
+  <section class="content" id="projects">
+    <div class="project-section">
+      <h2>~ Projects <i class="fa-solid fa-bars-progress"></i> ~</h2>
+
+      <div class="project-cards">
+        <div class="card">
+          <div class="box">
+              <img src="./img/projects_Img/project_1.jpg" alt="">
+              <h3>Project name</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <img src="./img/projects_Img/project_2.jpg" alt="">
+                <h3>Project name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <img src="./img/projects_Img/project_3.jpg" alt="">
+                <h3>Project name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <img src="./img/projects_Img/project_4.jpg" alt="">
+                <h3>Project name</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+      </div>
+      <br>
+      <a href="#">
+        <i class="fa-solid fa-arrow-right"></i> to see more<span> click hier...</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created By
+      <a href="#">Mohamed Chakib Mastouri</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.
+    </p>
+  </footer>
+
+  <!-- Script Link-->
+  <script src="main.js"></script>  
+</body>
+</html>
