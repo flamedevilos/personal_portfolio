@@ -5,7 +5,7 @@ Content this portfolio:
 Home-, about-, skills-, services-, projects- sections.
 The resume contain my personal informations, work creer  and my eduction process. 
 
--> Note: 
+Note: 
 The contact form is not active, to be active only by adding php file's connection to an database local or through a public server.
 & This App not totaly finish...
 
