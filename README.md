@@ -1,4 +1,4 @@
-# Personal portfolio
+# Personal portfolio Not Respensive
 
 This is my personal portfolio with my resume(cv) and an example of contact form.
 Content this portfolio:
@@ -6,7 +6,7 @@ Home-, about-, skills-, services-, projects- sections.
 The resume contain my personal informations, work creer  and my eduction process. 
 
 Note: 
-The contact form is not active, to be active only by adding php file's connection to an database local or through a public server.
+This contact form is Not Respensive.
 & This App not totaly finish...
 
 Some Pics:
